@@ -22,12 +22,12 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
+  myName.innerHTML = 'Miracle';
+});
 
 
-
-
-
-
+image1Button.addEventListener('click', function() {
+  image.innerHTML = "https://via.placeholder.com/150";
 });
 
 // 3. Add an event listener to the `image1Button`
